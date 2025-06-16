@@ -1,0 +1,10 @@
+{ "index": { "_index": "threatlogs" } }
+{ "timestamp": "2025-06-12T08:45:00Z", "user": "jsmith", "event": "failed login", "ip": "192.168.1.100", "message": "User jsmith failed to login 3 times" }
+{ "index": { "_index": "threatlogs" } }
+{ "timestamp": "2025-06-12T08:46:00Z", "user": "admin", "event": "login success", "ip": "10.0.0.15", "message": "Administrator login successful" }
+{ "index": { "_index": "threatlogs" } }
+{ "timestamp": "2025-06-12T09:01:00Z", "user": "jsmith", "event": "powershell", "ip": "192.168.1.100", "message": "PowerShell encoded command detected" }
+{ "index": { "_index": "threatlogs" } }
+{ "timestamp": "2025-06-12T09:10:00Z", "user": "guest", "event": "file write", "ip": "172.16.0.10", "message": "Suspicious file dropped in Temp directory" }
+{ "index": { "_index": "threatlogs" } }
+{ "timestamp": "2025-06-12T09:15:00Z", "user": "system", "event": "service start", "ip": "127.0.0.1", "message": "Service 'evil.exe' started with SYSTEM privileges" }
